@@ -1,6 +1,6 @@
 # Assignment_1_350
 
-Collaborators: Gabriel Otero, Greyson Weddle, Zack
+Collaborators: Gabriel Otero, Greyson Weddle, Zack Siegel
 
 Due: 09/26/2024
 
