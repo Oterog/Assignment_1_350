@@ -17,3 +17,4 @@ SELECT first_name, last_name FROM employees WHERE manager_id = (SELECT manager_i
 -- Problem 5: Show the first and last name of each employee who is paid more than Luis Popp but less than Alexander Hunold
 -- Author: Greyson Weddle
 SELECT first_name, last_name, salary FROM employees WHERE salary > (SELECT salary FROM employees WHERE first_name = 'Luis' AND last_name = 'Popp') AND salary < (SELECT salary FROM employees WHERE first_name = 'Alexander' AND last_name = 'Hunold');
+
